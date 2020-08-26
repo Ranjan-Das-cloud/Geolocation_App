@@ -1,0 +1,158 @@
+.img-gap-between
+{
+	padding: 10px;
+	margin-right: 5%;
+}
+
+.location-header
+{
+	font-size: 30px;
+	text-align: center; 
+	color: red;
+	background-image: url('https://github.com/Ranjan-Das-cloud/JavaScript_App-/blob/master/Images/navigation-app-geolocation-1024x512.png?raw=true');
+	background-color: black;
+	height: 200px; 
+	width: 100%;
+}
+
+.glassy
+{
+	background-image: linear-gradient(to right,#ECF0F1,#1C2833);
+}
+
+#print_btn
+{
+	border: 2px solid #FF005D;
+   color:  #FF005D;
+   position: absolute;
+   margin-top: 25px;
+   bottom: 0;
+   left: 0;
+   opacity: 0;
+   animation: print_btn 2s cubic-bezier(.74, .06, .4, .92) forwards;
+   animation-delay: 1s;
+   background-color: white;
+}
+
+.rfloat
+{
+	float: right;
+	margin-right: 7%;
+	color: red;
+	font-size: 15px;
+	font-weight: bolder;
+	padding: auto;
+}
+
+.button {
+  width: 500px;
+  height: 100px;
+  bottom: 40px;
+  right: -50px;
+  margin-top: 25px;
+  position: absolute;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  width: 240px;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  transition: ease-in-out 220ms;
+  cursor: pointer;
+}
+
+.footer
+{
+    color: #ffffff;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    text-shadow: 4px 5px 20px red;
+}
+
+.image-shadow
+{
+	box-shadow: 0 20px 40px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+  border-radius: 15px 50px 30px;
+  font-color: #ffffff;
+  background-color: #ffffff;
+  border: 2px solid #FF005D;
+}
+
+.offset-null{
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.offset-null:hover {
+  width: 100%;
+  height: 200px;
+  transform: rotate(360deg);
+}
+
+.ext-hover
+{
+	border: 1px solid red;
+}
+
+
+.ext-hover:hover {
+  background-color: pink;
+  border: 5x solid red;
+  border-radius: 5px 5px 5px 5px;
+  transform: translate3d(50px,25px,-15px); /* Standard syntax */
+}
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  animation-delay: 100ms;
+}
+
+.card
+{
+ opacity: 0.9;
+ animation: get 100ms cubic-bezier(.74, .06, .4, .92) forwards;
+ animation-delay: 10s;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes print_btn {
+  0% {
+    opacity: 0;
+    bottom: -25px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+@keyframes get {
+  0% {
+    opacity: 0;
+    bottom: -25px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
